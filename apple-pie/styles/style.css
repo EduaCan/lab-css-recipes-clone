@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@100;300&display=swap');
+  
+ 
+
+
+
+body {
+    align-items: center;
+    font-family: 'Roboto';
+    padding-bottom: 5vh;
+}
+
+#main-image {
+    width: 100%;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    padding: auto;
+    border-bottom: solid 1px black;
+}
+
+section:last-of-type {
+    border-bottom: 0;
+}
+
+
+#main-image-div {
+    height: 33vh;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+}
+
+/* .images-div {
+    justify-items: center;
+} */
+
+h1 {
+    position: absolute;
+    top: 11%;
+    left: 41%;
+    display: inline;
+    color: white;
+    font-size: 2rem;
+}
+
+h2 {
+    padding-left: 3vw;
+}
+
+.info-images {
+    width: 70%;
+    display: inline;
+    padding-left: 8vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+ul li::marker {
+    content: "- ";
+}
+
+ol li::marker::after {
+    content: ")";
+}
