@@ -62,6 +62,6 @@ ul li::marker {
     content: "- ";
 }
 
-ol li::marker::after {
-    content: ")";
+.sorted-list li::marker {
+    content: "";
 }
